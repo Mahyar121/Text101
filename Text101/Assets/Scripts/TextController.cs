@@ -6,7 +6,8 @@ using UnityEngine;
 public class TextController : MonoBehaviour
 {
     public Text text;
-    private enum States {
+    private enum States
+    {
         cell, mirror, sheets_0, lock_0, cell_mirror, sheets_1, lock_1, corridor_0, stairs_0, stairs_1,
         stairs_2, courtyard, floor, corridor_1, corridor_2, corridor_3, closet_door, in_closet
     };
