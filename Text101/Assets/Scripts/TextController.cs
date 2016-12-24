@@ -42,6 +42,11 @@ public class TextController : MonoBehaviour
         else if (myState == States.corridor_3) { corridor_3(); }
         else if (myState == States.closet_door) { closet_door(); }
         else if (myState == States.in_closet) { in_closet(); }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
+        }
     }
 
     void in_closet()
