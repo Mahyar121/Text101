@@ -1,2 +1,2 @@
 # Text101
-Game created during the Unity Course
+I learned how to develop this game thanks to the Unity Course from udemy.com
